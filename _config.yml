@@ -1,8 +1,8 @@
 # -----------------------------------------------------------------------------
 # Site settings
 # -----------------------------------------------------------------------------
-name: Your Name
-email: you@example.com
+name: Jimy Encomendero
+email: jje64@cornell.edu
 description: > # this means to ignore newlines until "url:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
@@ -25,15 +25,15 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # -----------------------------------------------------------------------------
 # Social integration
 # -----------------------------------------------------------------------------
-github_username: # your GitHub user name
+github_username: jjenco # your GitHub user name
 twitter_username: # your Twitter handle
 linkedin_username: # your LinkedIn user name
-scholar_userid: # your Google Scholar ID
-orcid_id: # your ORCID ID
+scholar_userid: A3CAMtYAAAAJ # your Google Scholar ID
+orcid_id: 0000-0002-1597-1761 # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
-publons_id: # your ID on Publons
-research_gate_profile: # your profile on ResearchGate
+publons_id: Y-7637-2019 # your ID on Publons
+research_gate_profile: Jimy_Encomendero # your profile on ResearchGate
 blogger_url: # your blogger URL
 
 contact_note: >
@@ -102,12 +102,14 @@ plugins:
 # Jekyll-Scholar
 scholar:
 
-  last_name: Einstein
+  last_name: Encomendero
 
   style: apa
+  #style: american-physics-society
   locale: en
 
   sort_by: year
+  #sort_by: none
   order: descending
 
   source: /_bibliography/
