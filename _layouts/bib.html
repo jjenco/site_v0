@@ -87,6 +87,10 @@
   {% endif %}
   </span>
 
+  {% if entry.note %}
+    <span class="title">&#9733; {{entry.note}}</span>
+  {% endif %}
+
   <!-- Hidden abstract block -->
   {% if entry.abstract %}
   <span class="abstract hidden">

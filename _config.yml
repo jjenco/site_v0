@@ -5,10 +5,7 @@ name: Jimy Encomendero
 email: jje64@cornell.edu
 description: > # this means to ignore newlines until "url:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
-footer_text: >
-  Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
+footer_text: Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a>. Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 
 url:  # the base hostname & protocol for your site
 baseurl: /site_v0 # the subpath of your site, e.g. /blog/
@@ -36,8 +33,7 @@ publons_id: Y-7637-2019 # your ID on Publons
 research_gate_profile: Jimy_Encomendero # your profile on ResearchGate
 blogger_url: # your blogger URL
 
-contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+contact_note: You can even add a little note about which of these is the best way to reach you.
 
 google_analytics: UA-XXXXXXXXX # out your google-analytics code
 
@@ -111,6 +107,7 @@ scholar:
   sort_by: year
   #sort_by: none
   order: descending
+  #group_by: type
 
   source: /_bibliography/
   bibliography: papers.bib
